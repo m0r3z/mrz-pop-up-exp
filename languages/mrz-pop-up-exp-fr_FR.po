@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: MRZ Pop Up Exp 1.0.0\n"
+"Project-Id-Version: MRZ Pop-up Exp 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mrz-pop-up-exp\n"
 "Last-Translator: Morez.co\n"
 "Language-Team: French\n"
@@ -16,8 +16,8 @@ msgstr ""
 
 #. Plugin Name of the plugin
 #: mrz-pop-up-exp.php
-msgid "MRZ Pop Up Exp"
-msgstr "MRZ Pop Up Exp"
+msgid "MRZ Pop-up Exp"
+msgstr "MRZ Pop-up Exp"
 
 #. Plugin URI of the plugin
 #: mrz-pop-up-exp.php

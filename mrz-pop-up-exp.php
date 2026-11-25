@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:       MRZ Pop Up Exp
+ * Plugin Name:       MRZ Pop-up Exp
  * Plugin URI:        https://github.com/m0r3z/mrz-pop-up-exp
  * Description:       A very simple popup: HTML text, optional image on the left, and basic display rules.
  * Version:           1.0.0
@@ -13,8 +13,8 @@
  * Text Domain:       mrz-pop-up-exp
  * Domain Path:       /languages
  *
- * MRZ Pop Up Exp — Copyright (C) 2026 Morez.co <hello@morez.co>
- * "MRZ Pop Up Exp" is a trademark of Morez.co. See LICENSE for full terms.
+ * MRZ Pop-up Exp — Copyright (C) 2026 Morez.co <hello@morez.co>
+ * "MRZ Pop-up Exp" is a trademark of Morez.co. See LICENSE for full terms.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License v3 as published by

@@ -1,4 +1,4 @@
-=== MRZ Pop Up Exp ===
+=== MRZ Pop-up Exp ===
 Contributors: m0r3z
 Tags: popup, modal, overlay, announcement, exit intent
 Requires at least: 6.3
@@ -12,7 +12,7 @@ A very simple popup: HTML text, optional image on the left, and basic display ru
 
 == Description ==
 
-MRZ Pop Up Exp adds simple popups to your site. There is one layout: your HTML text, with or without an image on the left. The styling is left to your theme.
+MRZ Pop-up Exp adds simple popups to your site. There is one layout: your HTML text, with or without an image on the left. The styling is left to your theme.
 
 = Features =
 
@@ -30,7 +30,7 @@ MRZ Pop Up Exp adds simple popups to your site. There is one layout: your HTML t
 
 = Privacy / external calls =
 
-MRZ Pop Up Exp makes no external HTTP calls, loads no remote resources, sets no cookies and collects no telemetry.
+MRZ Pop-up Exp makes no external HTTP calls, loads no remote resources, sets no cookies and collects no telemetry.
 
 To apply the frequency and the triggers, it stores the following in the visitor's browser (localStorage and sessionStorage). Nothing is sent to your server:
 

@@ -2,7 +2,7 @@
 # This file is distributed under the GPLv3 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: MRZ Pop Up Exp 1.0.0\n"
+"Project-Id-Version: MRZ Pop-up Exp 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mrz-pop-up-exp\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,7 +16,7 @@ msgstr ""
 
 #. Plugin Name of the plugin
 #: mrz-pop-up-exp.php
-msgid "MRZ Pop Up Exp"
+msgid "MRZ Pop-up Exp"
 msgstr ""
 
 #. Plugin URI of the plugin

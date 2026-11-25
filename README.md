@@ -1,4 +1,4 @@
-# MRZ Pop Up Exp
+# MRZ Pop-up Exp
 
 Plugin WordPress de **pop-up très simple** : un texte HTML, une image à gauche facultative et des règles d'affichage. L'apparence s'adapte au site via le CSS du thème.
 
