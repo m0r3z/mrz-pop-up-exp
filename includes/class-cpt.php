@@ -18,9 +18,9 @@ final class CPT {
 
 	public function register_post_type() {
 		$labels = array(
-			'name'               => _x( 'MRZ Pop Up', 'post type general name', 'mrz-pop-up-exp' ),
+			'name'               => _x( 'MRZ Pop-up', 'post type general name', 'mrz-pop-up-exp' ),
 			'singular_name'      => _x( 'Popup', 'post type singular name', 'mrz-pop-up-exp' ),
-			'menu_name'          => _x( 'MRZ Pop Up', 'admin menu', 'mrz-pop-up-exp' ),
+			'menu_name'          => _x( 'MRZ Pop-up', 'admin menu', 'mrz-pop-up-exp' ),
 			'add_new'            => __( 'Add new popup', 'mrz-pop-up-exp' ),
 			'add_new_item'       => __( 'Add new popup', 'mrz-pop-up-exp' ),
 			'new_item'           => __( 'New popup', 'mrz-pop-up-exp' ),
