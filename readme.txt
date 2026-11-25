@@ -4,7 +4,7 @@ Tags: popup, modal, overlay, announcement, exit intent
 Requires at least: 6.3
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 0.1.0
+Stable tag: 1.0.0
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -80,5 +80,5 @@ All popups and their settings are deleted.
 
 == Changelog ==
 
-= 0.1.0 =
+= 1.0.0 =
 * First version.

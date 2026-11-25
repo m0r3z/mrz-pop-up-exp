@@ -3,7 +3,7 @@
  * Plugin Name:       MRZ Pop Up Exp
  * Plugin URI:        https://github.com/m0r3z/mrz-pop-up-exp
  * Description:       A very simple popup: HTML text, optional image on the left, and basic display rules.
- * Version:           0.1.0
+ * Version:           1.0.0
  * Requires at least: 6.3
  * Requires PHP:      7.4
  * Author:            Morez.co
@@ -25,7 +25,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'MRZPOP_VERSION', '0.1.0' );
+define( 'MRZPOP_VERSION', '1.0.0' );
 define( 'MRZPOP_FILE', __FILE__ );
 define( 'MRZPOP_DIR', plugin_dir_path( __FILE__ ) );
 define( 'MRZPOP_URL', plugin_dir_url( __FILE__ ) );
