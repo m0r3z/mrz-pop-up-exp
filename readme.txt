@@ -17,7 +17,7 @@ MRZ Pop-up Exp adds simple popups to your site. There is one layout: your HTML t
 = Features =
 
 * HTML text with shortcodes, and an optional image from the media library.
-* Popup width, image width, overlay color and opacity.
+* Popup width, image width, background color, overlay color and opacity.
 * Optional start and end dates.
 * Display on the homepage, on all pages, on all but the homepage, on specific posts or pages, or nowhere.
 * Optionally hidden on mobile (under 768 px).
@@ -72,7 +72,7 @@ The popup must be published, within its dates, and loaded on the page: the same 
 
 = How do I style the popup? =
 
-With your theme's CSS. The CSS variables `--mrzpop-background`, `--mrzpop-padding`, `--mrzpop-gap`, `--mrzpop-duration` and `--mrzpop-z-index` are available.
+With your theme's CSS. The CSS variables `--mrzpop-padding`, `--mrzpop-gap`, `--mrzpop-duration` and `--mrzpop-z-index` are available.
 
 = What happens when I delete the plugin? =
 

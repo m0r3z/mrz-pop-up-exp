@@ -92,7 +92,7 @@
 			wp.codeEditor.initialize( 'mrzpop_html', mrzpopAdmin.codeEditor );
 		}
 
-		$( '#mrzpop_overlay_color' ).wpColorPicker();
+		$( '#mrzpop_background, #mrzpop_overlay_color' ).wpColorPicker();
 
 		$( '.mrzpop-image-choose' ).on( 'click', function () {
 			if ( ! frame ) {

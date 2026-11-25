@@ -28,6 +28,7 @@ final class PopupConfig {
 			'image_id'        => 0,
 			'width'           => 600,
 			'image_width'     => 40,
+			'background'      => '#ffffff',
 			'overlay_color'   => '#000000',
 			'overlay_opacity' => 60,
 			'start_date'      => '',
@@ -123,6 +124,8 @@ final class PopupConfig {
 		$width = absint( $raw['width'] );
 		$color = sanitize_hex_color( (string) $raw['overlay_color'] );
 
+		$background = sanitize_hex_color( (string) $raw['background'] );
+
 		$image_width   = absint( $raw['image_width'] );
 		$trigger_value = absint( $raw['trigger_value'] );
 
@@ -131,6 +134,7 @@ final class PopupConfig {
 			'image_id'        => absint( $raw['image_id'] ),
 			'width'           => $width ? min( 2000, max( 200, $width ) ) : $defaults['width'],
 			'image_width'     => $image_width ? min( 90, max( 10, $image_width ) ) : $defaults['image_width'],
+			'background'      => $background ? $background : $defaults['background'],
 			'overlay_color'   => $color ? $color : $defaults['overlay_color'],
 			'overlay_opacity' => min( 100, max( 0, (int) $raw['overlay_opacity'] ) ),
 			'start_date'      => self::sanitize_date( $raw['start_date'] ),

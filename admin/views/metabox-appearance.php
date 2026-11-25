@@ -18,6 +18,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<input type="number" id="mrzpop_image_width" name="mrzpop_image_width" min="10" max="90" step="1" value="<?php echo esc_attr( $values['image_width'] ); ?>">
 </p>
 <p>
+	<label for="mrzpop_background"><strong><?php esc_html_e( 'Background color', 'mrz-pop-up-exp' ); ?></strong></label><br>
+	<input type="text" id="mrzpop_background" name="mrzpop_background" data-default-color="#ffffff" value="<?php echo esc_attr( $values['background'] ); ?>">
+</p>
+<p>
 	<label for="mrzpop_overlay_color"><strong><?php esc_html_e( 'Overlay color', 'mrz-pop-up-exp' ); ?></strong></label><br>
 	<input type="text" id="mrzpop_overlay_color" name="mrzpop_overlay_color" data-default-color="#000000" value="<?php echo esc_attr( $values['overlay_color'] ); ?>">
 </p>
