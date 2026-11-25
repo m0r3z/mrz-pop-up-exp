@@ -1,0 +1,29 @@
+.mrzpop-image-field {
+	margin-top: 24px;
+}
+
+.mrzpop-image-preview img {
+	display: block;
+	max-width: 240px;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+.mrzpop-image-remove {
+	margin-left: 10px;
+}
+
+#mrzpop-content .CodeMirror {
+	border: 1px solid #8c8f94;
+}
+
+.mrzpop-pages-selected li {
+	display: flex;
+	justify-content: space-between;
+	gap: 8px;
+}
+
+.mrzpop-pages-results .button-link {
+	padding: 4px 0;
+	text-align: left;
+}

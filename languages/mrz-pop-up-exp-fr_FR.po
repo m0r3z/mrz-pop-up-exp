@@ -1,0 +1,298 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MRZ Pop Up Exp 0.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mrz-pop-up-exp\n"
+"Last-Translator: Morez.co\n"
+"Language-Team: French\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-25T13:30:42+00:00\n"
+"PO-Revision-Date: 2026-11-25 13:30+0000\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: mrz-pop-up-exp\n"
+
+#. Plugin Name of the plugin
+#: mrz-pop-up-exp.php
+msgid "MRZ Pop Up Exp"
+msgstr "MRZ Pop Up Exp"
+
+#. Plugin URI of the plugin
+#: mrz-pop-up-exp.php
+msgid "https://github.com/m0r3z/mrz-pop-up-exp"
+msgstr "https://github.com/m0r3z/mrz-pop-up-exp"
+
+#. Description of the plugin
+#: mrz-pop-up-exp.php
+msgid "A very simple popup: HTML text, optional image on the left, and basic display rules."
+msgstr "Une pop-up très simple : texte HTML, image à gauche facultative et règles d’affichage de base."
+
+#. Author of the plugin
+#: mrz-pop-up-exp.php
+msgid "Morez.co"
+msgstr "Morez.co"
+
+#. Author URI of the plugin
+#: mrz-pop-up-exp.php
+msgid "https://morez.co"
+msgstr "https://morez.co"
+
+#: admin/views/metabox-appearance.php:13
+msgid "Width (px)"
+msgstr "Largeur (px)"
+
+#: admin/views/metabox-appearance.php:17
+msgid "Overlay color"
+msgstr "Couleur de l’overlay"
+
+#: admin/views/metabox-appearance.php:21
+msgid "Overlay opacity (%)"
+msgstr "Opacité de l’overlay (%)"
+
+#: admin/views/metabox-content.php:13
+msgid "Text (HTML)"
+msgstr "Texte (HTML)"
+
+#: admin/views/metabox-content.php:16
+msgid "Shortcodes are allowed. Scripts, styles, iframes and raw forms are removed."
+msgstr "Les codes courts sont acceptés. Les scripts, styles, iframes et formulaires bruts sont retirés."
+
+#: admin/views/metabox-content.php:19
+msgid "Left image (optional)"
+msgstr "Image à gauche (facultative)"
+
+#: admin/views/metabox-content.php:22
+#: includes/class-popup-config.php:197
+msgid "Choose an image"
+msgstr "Choisir une image"
+
+#: admin/views/metabox-content.php:23
+msgid "Remove image"
+msgstr "Retirer l’image"
+
+#: admin/views/metabox-display.php:17
+msgid "Start date"
+msgstr "Date de début"
+
+#: admin/views/metabox-display.php:21
+msgid "End date"
+msgstr "Date de fin"
+
+#: admin/views/metabox-display.php:24
+msgid "Both dates are optional. The end date is included."
+msgstr "Les deux dates sont facultatives. Le jour de fin est inclus."
+
+#: admin/views/metabox-display.php:26
+msgid "Display popup on"
+msgstr "Afficher la pop-up sur"
+
+#: admin/views/metabox-display.php:39
+#: includes/class-popup-config.php:198
+msgid "Remove"
+msgstr "Retirer"
+
+#: admin/views/metabox-display.php:43
+msgid "Add a post or page"
+msgstr "Ajouter un article ou une page"
+
+#: admin/views/metabox-display.php:44
+msgid "Search…"
+msgstr "Rechercher…"
+
+#: admin/views/metabox-display.php:51
+msgid "Hide on mobile (under 768 px)"
+msgstr "Masquer sur mobile (moins de 768 px)"
+
+#: admin/views/metabox-display.php:55
+msgid "Open popup"
+msgstr "Ouvrir la pop-up"
+
+#: admin/views/metabox-display.php:63
+msgid "Trigger value"
+msgstr "Valeur du déclencheur"
+
+#: admin/views/metabox-display.php:69
+msgid "Once seen"
+msgstr "Une fois vue"
+
+#: admin/views/metabox-display.php:76
+msgid "After a click on a link of the popup, it no longer opens by itself, except with \"Always show it\"."
+msgstr "Après un clic sur un lien de la pop-up, elle ne s’ouvre plus toute seule, sauf avec « Toujours l’afficher »."
+
+#: admin/views/metabox-display.php:78
+msgid "Open with a link"
+msgstr "Ouvrir par un lien"
+
+#: admin/views/metabox-display.php:81
+msgid "On the pages chosen above, even if already seen, and on mobile too."
+msgstr "Sur les pages choisies ci-dessus, même si elle a déjà été vue, et aussi sur mobile."
+
+#: includes/class-cpt.php:21
+msgctxt "post type general name"
+msgid "MRZ Pop Up"
+msgstr "MRZ Pop Up"
+
+#: includes/class-cpt.php:22
+msgctxt "post type singular name"
+msgid "Popup"
+msgstr "Pop-up"
+
+#: includes/class-cpt.php:23
+msgctxt "admin menu"
+msgid "MRZ Pop Up"
+msgstr "MRZ Pop Up"
+
+#: includes/class-cpt.php:24
+#: includes/class-cpt.php:25
+msgid "Add new popup"
+msgstr "Ajouter une pop-up"
+
+#: includes/class-cpt.php:26
+msgid "New popup"
+msgstr "Nouvelle pop-up"
+
+#: includes/class-cpt.php:27
+msgid "Edit popup"
+msgstr "Modifier la pop-up"
+
+#: includes/class-cpt.php:28
+msgid "All popups"
+msgstr "Toutes les pop-ups"
+
+#: includes/class-cpt.php:29
+msgid "Search popups"
+msgstr "Rechercher des pop-ups"
+
+#: includes/class-cpt.php:30
+msgid "No popups found."
+msgstr "Aucune pop-up trouvée."
+
+#: includes/class-cpt.php:31
+msgid "No popups found in Trash."
+msgstr "Aucune pop-up trouvée dans la corbeille."
+
+#: includes/class-popup-config.php:45
+msgid "Homepage"
+msgstr "Page d’accueil"
+
+#: includes/class-popup-config.php:46
+msgid "All pages"
+msgstr "Toutes les pages"
+
+#: includes/class-popup-config.php:47
+msgid "All but homepage"
+msgstr "Toutes sauf la page d’accueil"
+
+#: includes/class-popup-config.php:48
+msgid "Specific post(s)/page(s)"
+msgstr "Article(s)/page(s) précis"
+
+#: includes/class-popup-config.php:49
+msgid "Nowhere (disabled)"
+msgstr "Nulle part (désactivée)"
+
+#: includes/class-popup-config.php:55
+msgid "Immediately"
+msgstr "Immédiatement"
+
+#: includes/class-popup-config.php:56
+msgid "After some seconds on the page"
+msgstr "Après quelques secondes sur la page"
+
+#: includes/class-popup-config.php:57
+msgid "After scrolling some pixels"
+msgstr "Après un défilement de quelques pixels"
+
+#: includes/class-popup-config.php:58
+msgid "At half of the page"
+msgstr "À la moitié de la page"
+
+#: includes/class-popup-config.php:59
+msgid "At the bottom of the page"
+msgstr "En bas de la page"
+
+#: includes/class-popup-config.php:60
+msgid "After some minutes on the site"
+msgstr "Après quelques minutes sur le site"
+
+#: includes/class-popup-config.php:61
+msgid "After some pages viewed in 90 days"
+msgstr "Après quelques pages vues en 90 jours"
+
+#: includes/class-popup-config.php:62
+msgid "On exit intent (not on touch screens)"
+msgstr "À l’intention de sortie (pas au tactile)"
+
+#: includes/class-popup-config.php:71
+msgid "seconds"
+msgstr "secondes"
+
+#: includes/class-popup-config.php:72
+msgid "pixels"
+msgstr "pixels"
+
+#: includes/class-popup-config.php:73
+msgid "minutes"
+msgstr "minutes"
+
+#: includes/class-popup-config.php:74
+msgid "pages"
+msgstr "pages"
+
+#: includes/class-popup-config.php:80
+msgid "Never again"
+msgstr "Ne plus jamais l’afficher"
+
+#: includes/class-popup-config.php:81
+msgid "Not again during the session"
+msgstr "Plus pendant la session"
+
+#: includes/class-popup-config.php:82
+msgid "Not again for 7 days"
+msgstr "Plus pendant 7 jours"
+
+#: includes/class-popup-config.php:83
+msgid "Not again for 30 days"
+msgstr "Plus pendant 30 jours"
+
+#: includes/class-popup-config.php:84
+msgid "Not again for 90 days"
+msgstr "Plus pendant 90 jours"
+
+#: includes/class-popup-config.php:85
+msgid "Always show it"
+msgstr "Toujours l’afficher"
+
+#: includes/class-popup-config.php:145
+msgid "Content"
+msgstr "Contenu"
+
+#: includes/class-popup-config.php:146
+msgid "Appearance"
+msgstr "Apparence"
+
+#: includes/class-popup-config.php:147
+msgid "Display"
+msgstr "Affichage"
+
+#: includes/class-popup-config.php:177
+msgid "Preview popup"
+msgstr "Aperçu de la pop-up"
+
+#: includes/class-popup-config.php:178
+msgid "Shows the last saved version."
+msgstr "Montre la dernière version enregistrée."
+
+#: includes/class-popup-config.php:199
+msgid "No results."
+msgstr "Aucun résultat."
+
+#: public/views/popup.php:22
+msgid "Popup"
+msgstr "Pop-up"
+
+#: public/views/popup.php:23
+msgid "Close"
+msgstr "Fermer"

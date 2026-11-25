@@ -1,0 +1,298 @@
+# Copyright (C) 2026 Morez.co
+# This file is distributed under the GPLv3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: MRZ Pop Up Exp 0.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mrz-pop-up-exp\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-25T13:30:42+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: mrz-pop-up-exp\n"
+
+#. Plugin Name of the plugin
+#: mrz-pop-up-exp.php
+msgid "MRZ Pop Up Exp"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: mrz-pop-up-exp.php
+msgid "https://github.com/m0r3z/mrz-pop-up-exp"
+msgstr ""
+
+#. Description of the plugin
+#: mrz-pop-up-exp.php
+msgid "A very simple popup: HTML text, optional image on the left, and basic display rules."
+msgstr ""
+
+#. Author of the plugin
+#: mrz-pop-up-exp.php
+msgid "Morez.co"
+msgstr ""
+
+#. Author URI of the plugin
+#: mrz-pop-up-exp.php
+msgid "https://morez.co"
+msgstr ""
+
+#: admin/views/metabox-appearance.php:13
+msgid "Width (px)"
+msgstr ""
+
+#: admin/views/metabox-appearance.php:17
+msgid "Overlay color"
+msgstr ""
+
+#: admin/views/metabox-appearance.php:21
+msgid "Overlay opacity (%)"
+msgstr ""
+
+#: admin/views/metabox-content.php:13
+msgid "Text (HTML)"
+msgstr ""
+
+#: admin/views/metabox-content.php:16
+msgid "Shortcodes are allowed. Scripts, styles, iframes and raw forms are removed."
+msgstr ""
+
+#: admin/views/metabox-content.php:19
+msgid "Left image (optional)"
+msgstr ""
+
+#: admin/views/metabox-content.php:22
+#: includes/class-popup-config.php:197
+msgid "Choose an image"
+msgstr ""
+
+#: admin/views/metabox-content.php:23
+msgid "Remove image"
+msgstr ""
+
+#: admin/views/metabox-display.php:17
+msgid "Start date"
+msgstr ""
+
+#: admin/views/metabox-display.php:21
+msgid "End date"
+msgstr ""
+
+#: admin/views/metabox-display.php:24
+msgid "Both dates are optional. The end date is included."
+msgstr ""
+
+#: admin/views/metabox-display.php:26
+msgid "Display popup on"
+msgstr ""
+
+#: admin/views/metabox-display.php:39
+#: includes/class-popup-config.php:198
+msgid "Remove"
+msgstr ""
+
+#: admin/views/metabox-display.php:43
+msgid "Add a post or page"
+msgstr ""
+
+#: admin/views/metabox-display.php:44
+msgid "Search…"
+msgstr ""
+
+#: admin/views/metabox-display.php:51
+msgid "Hide on mobile (under 768 px)"
+msgstr ""
+
+#: admin/views/metabox-display.php:55
+msgid "Open popup"
+msgstr ""
+
+#: admin/views/metabox-display.php:63
+msgid "Trigger value"
+msgstr ""
+
+#: admin/views/metabox-display.php:69
+msgid "Once seen"
+msgstr ""
+
+#: admin/views/metabox-display.php:76
+msgid "After a click on a link of the popup, it no longer opens by itself, except with \"Always show it\"."
+msgstr ""
+
+#: admin/views/metabox-display.php:78
+msgid "Open with a link"
+msgstr ""
+
+#: admin/views/metabox-display.php:81
+msgid "On the pages chosen above, even if already seen, and on mobile too."
+msgstr ""
+
+#: includes/class-cpt.php:21
+msgctxt "post type general name"
+msgid "MRZ Pop Up"
+msgstr ""
+
+#: includes/class-cpt.php:22
+msgctxt "post type singular name"
+msgid "Popup"
+msgstr ""
+
+#: includes/class-cpt.php:23
+msgctxt "admin menu"
+msgid "MRZ Pop Up"
+msgstr ""
+
+#: includes/class-cpt.php:24
+#: includes/class-cpt.php:25
+msgid "Add new popup"
+msgstr ""
+
+#: includes/class-cpt.php:26
+msgid "New popup"
+msgstr ""
+
+#: includes/class-cpt.php:27
+msgid "Edit popup"
+msgstr ""
+
+#: includes/class-cpt.php:28
+msgid "All popups"
+msgstr ""
+
+#: includes/class-cpt.php:29
+msgid "Search popups"
+msgstr ""
+
+#: includes/class-cpt.php:30
+msgid "No popups found."
+msgstr ""
+
+#: includes/class-cpt.php:31
+msgid "No popups found in Trash."
+msgstr ""
+
+#: includes/class-popup-config.php:45
+msgid "Homepage"
+msgstr ""
+
+#: includes/class-popup-config.php:46
+msgid "All pages"
+msgstr ""
+
+#: includes/class-popup-config.php:47
+msgid "All but homepage"
+msgstr ""
+
+#: includes/class-popup-config.php:48
+msgid "Specific post(s)/page(s)"
+msgstr ""
+
+#: includes/class-popup-config.php:49
+msgid "Nowhere (disabled)"
+msgstr ""
+
+#: includes/class-popup-config.php:55
+msgid "Immediately"
+msgstr ""
+
+#: includes/class-popup-config.php:56
+msgid "After some seconds on the page"
+msgstr ""
+
+#: includes/class-popup-config.php:57
+msgid "After scrolling some pixels"
+msgstr ""
+
+#: includes/class-popup-config.php:58
+msgid "At half of the page"
+msgstr ""
+
+#: includes/class-popup-config.php:59
+msgid "At the bottom of the page"
+msgstr ""
+
+#: includes/class-popup-config.php:60
+msgid "After some minutes on the site"
+msgstr ""
+
+#: includes/class-popup-config.php:61
+msgid "After some pages viewed in 90 days"
+msgstr ""
+
+#: includes/class-popup-config.php:62
+msgid "On exit intent (not on touch screens)"
+msgstr ""
+
+#: includes/class-popup-config.php:71
+msgid "seconds"
+msgstr ""
+
+#: includes/class-popup-config.php:72
+msgid "pixels"
+msgstr ""
+
+#: includes/class-popup-config.php:73
+msgid "minutes"
+msgstr ""
+
+#: includes/class-popup-config.php:74
+msgid "pages"
+msgstr ""
+
+#: includes/class-popup-config.php:80
+msgid "Never again"
+msgstr ""
+
+#: includes/class-popup-config.php:81
+msgid "Not again during the session"
+msgstr ""
+
+#: includes/class-popup-config.php:82
+msgid "Not again for 7 days"
+msgstr ""
+
+#: includes/class-popup-config.php:83
+msgid "Not again for 30 days"
+msgstr ""
+
+#: includes/class-popup-config.php:84
+msgid "Not again for 90 days"
+msgstr ""
+
+#: includes/class-popup-config.php:85
+msgid "Always show it"
+msgstr ""
+
+#: includes/class-popup-config.php:145
+msgid "Content"
+msgstr ""
+
+#: includes/class-popup-config.php:146
+msgid "Appearance"
+msgstr ""
+
+#: includes/class-popup-config.php:147
+msgid "Display"
+msgstr ""
+
+#: includes/class-popup-config.php:177
+msgid "Preview popup"
+msgstr ""
+
+#: includes/class-popup-config.php:178
+msgid "Shows the last saved version."
+msgstr ""
+
+#: includes/class-popup-config.php:199
+msgid "No results."
+msgstr ""
+
+#: public/views/popup.php:22
+msgid "Popup"
+msgstr ""
+
+#: public/views/popup.php:23
+msgid "Close"
+msgstr ""
