@@ -14,6 +14,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<input type="number" id="mrzpop_width" name="mrzpop_width" min="200" max="2000" step="1" value="<?php echo esc_attr( $values['width'] ); ?>">
 </p>
 <p>
+	<label for="mrzpop_image_width"><strong><?php esc_html_e( 'Image column width (%)', 'mrz-pop-up-exp' ); ?></strong></label><br>
+	<input type="number" id="mrzpop_image_width" name="mrzpop_image_width" min="10" max="90" step="1" value="<?php echo esc_attr( $values['image_width'] ); ?>">
+</p>
+<p>
 	<label for="mrzpop_overlay_color"><strong><?php esc_html_e( 'Overlay color', 'mrz-pop-up-exp' ); ?></strong></label><br>
 	<input type="text" id="mrzpop_overlay_color" name="mrzpop_overlay_color" data-default-color="#000000" value="<?php echo esc_attr( $values['overlay_color'] ); ?>">
 </p>

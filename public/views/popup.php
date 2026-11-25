@@ -13,9 +13,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 $mrzpop_style = sprintf(
-	'--mrzpop-width:%1$dpx;--mrzpop-overlay:%2$s',
+	'--mrzpop-width:%1$dpx;--mrzpop-overlay:%2$s;--mrzpop-image-width:%3$d%%',
 	$values['width'],
-	self::overlay_css( $values['overlay_color'], $values['overlay_opacity'] )
+	self::overlay_css( $values['overlay_color'], $values['overlay_opacity'] ),
+	$values['image_width']
 );
 ?>
 <div class="mrzpop<?php echo $has_image ? ' mrzpop--has-image' : ''; ?>" id="mrzpop-<?php echo esc_attr( $popup_id ); ?>" style="<?php echo esc_attr( $mrzpop_style ); ?>"<?php echo $popup_id === $this->preview_id ? ' data-mrzpop-preview' : ''; ?> data-mrzpop-start="<?php echo esc_attr( self::start_timestamp( $values['start_date'] ) ); ?>" data-mrzpop-end="<?php echo esc_attr( self::end_timestamp( $values['end_date'] ) ); ?>" data-mrzpop-hide-mobile="<?php echo esc_attr( $values['hide_mobile'] ); ?>" data-mrzpop-trigger="<?php echo esc_attr( $values['trigger'] ); ?>" data-mrzpop-value="<?php echo esc_attr( $values['trigger_value'] ); ?>" data-mrzpop-frequency="<?php echo esc_attr( $values['frequency'] ); ?>" hidden>

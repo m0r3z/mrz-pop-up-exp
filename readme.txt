@@ -17,7 +17,7 @@ MRZ Pop Up Exp adds simple popups to your site. There is one layout: your HTML t
 = Features =
 
 * HTML text with shortcodes, and an optional image from the media library.
-* Popup width, overlay color and opacity.
+* Popup width, image width, overlay color and opacity.
 * Optional start and end dates.
 * Display on the homepage, on all pages, on all but the homepage, on specific posts or pages, or nowhere.
 * Optionally hidden on mobile (under 768 px).
@@ -48,7 +48,7 @@ Development happens publicly on GitHub: https://github.com/m0r3z/mrz-pop-up-exp
 == Installation ==
 
 1. Upload the plugin to `/wp-content/plugins/mrz-pop-up-exp` and activate it.
-2. Open the "MRZ Pop Up" menu and add a popup.
+2. Open the "MRZ Pop-up" menu and add a popup.
 3. Write its text, choose an image if needed, and set its appearance and display rules.
 4. Save, check it with "Preview popup", then publish.
 
@@ -72,7 +72,7 @@ The popup must be published, within its dates, and loaded on the page: the same 
 
 = How do I style the popup? =
 
-With your theme's CSS. The CSS variables `--mrzpop-background`, `--mrzpop-padding`, `--mrzpop-image-width` and `--mrzpop-z-index` are available.
+With your theme's CSS. The CSS variables `--mrzpop-background`, `--mrzpop-padding`, `--mrzpop-gap`, `--mrzpop-duration` and `--mrzpop-z-index` are available.
 
 = What happens when I delete the plugin? =
 

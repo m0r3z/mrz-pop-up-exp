@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-11-25T13:30:42+00:00\n"
+"POT-Creation-Date: 2026-11-25T14:29:52+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: mrz-pop-up-exp\n"
@@ -44,10 +44,14 @@ msgid "Width (px)"
 msgstr ""
 
 #: admin/views/metabox-appearance.php:17
-msgid "Overlay color"
+msgid "Image column width (%)"
 msgstr ""
 
 #: admin/views/metabox-appearance.php:21
+msgid "Overlay color"
+msgstr ""
+
+#: admin/views/metabox-appearance.php:25
 msgid "Overlay opacity (%)"
 msgstr ""
 
@@ -64,7 +68,7 @@ msgid "Left image (optional)"
 msgstr ""
 
 #: admin/views/metabox-content.php:22
-#: includes/class-popup-config.php:197
+#: includes/class-popup-config.php:200
 msgid "Choose an image"
 msgstr ""
 
@@ -89,7 +93,7 @@ msgid "Display popup on"
 msgstr ""
 
 #: admin/views/metabox-display.php:39
-#: includes/class-popup-config.php:198
+#: includes/class-popup-config.php:201
 msgid "Remove"
 msgstr ""
 
@@ -131,7 +135,7 @@ msgstr ""
 
 #: includes/class-cpt.php:21
 msgctxt "post type general name"
-msgid "MRZ Pop Up"
+msgid "MRZ Pop-up"
 msgstr ""
 
 #: includes/class-cpt.php:22
@@ -141,7 +145,7 @@ msgstr ""
 
 #: includes/class-cpt.php:23
 msgctxt "admin menu"
-msgid "MRZ Pop Up"
+msgid "MRZ Pop-up"
 msgstr ""
 
 #: includes/class-cpt.php:24
@@ -173,126 +177,126 @@ msgstr ""
 msgid "No popups found in Trash."
 msgstr ""
 
-#: includes/class-popup-config.php:45
+#: includes/class-popup-config.php:46
 msgid "Homepage"
 msgstr ""
 
-#: includes/class-popup-config.php:46
+#: includes/class-popup-config.php:47
 msgid "All pages"
 msgstr ""
 
-#: includes/class-popup-config.php:47
+#: includes/class-popup-config.php:48
 msgid "All but homepage"
 msgstr ""
 
-#: includes/class-popup-config.php:48
+#: includes/class-popup-config.php:49
 msgid "Specific post(s)/page(s)"
 msgstr ""
 
-#: includes/class-popup-config.php:49
+#: includes/class-popup-config.php:50
 msgid "Nowhere (disabled)"
 msgstr ""
 
-#: includes/class-popup-config.php:55
+#: includes/class-popup-config.php:56
 msgid "Immediately"
 msgstr ""
 
-#: includes/class-popup-config.php:56
+#: includes/class-popup-config.php:57
 msgid "After some seconds on the page"
 msgstr ""
 
-#: includes/class-popup-config.php:57
+#: includes/class-popup-config.php:58
 msgid "After scrolling some pixels"
 msgstr ""
 
-#: includes/class-popup-config.php:58
+#: includes/class-popup-config.php:59
 msgid "At half of the page"
 msgstr ""
 
-#: includes/class-popup-config.php:59
+#: includes/class-popup-config.php:60
 msgid "At the bottom of the page"
 msgstr ""
 
-#: includes/class-popup-config.php:60
+#: includes/class-popup-config.php:61
 msgid "After some minutes on the site"
 msgstr ""
 
-#: includes/class-popup-config.php:61
+#: includes/class-popup-config.php:62
 msgid "After some pages viewed in 90 days"
 msgstr ""
 
-#: includes/class-popup-config.php:62
+#: includes/class-popup-config.php:63
 msgid "On exit intent (not on touch screens)"
 msgstr ""
 
-#: includes/class-popup-config.php:71
+#: includes/class-popup-config.php:72
 msgid "seconds"
 msgstr ""
 
-#: includes/class-popup-config.php:72
+#: includes/class-popup-config.php:73
 msgid "pixels"
 msgstr ""
 
-#: includes/class-popup-config.php:73
+#: includes/class-popup-config.php:74
 msgid "minutes"
 msgstr ""
 
-#: includes/class-popup-config.php:74
+#: includes/class-popup-config.php:75
 msgid "pages"
 msgstr ""
 
-#: includes/class-popup-config.php:80
+#: includes/class-popup-config.php:81
 msgid "Never again"
 msgstr ""
 
-#: includes/class-popup-config.php:81
+#: includes/class-popup-config.php:82
 msgid "Not again during the session"
 msgstr ""
 
-#: includes/class-popup-config.php:82
+#: includes/class-popup-config.php:83
 msgid "Not again for 7 days"
 msgstr ""
 
-#: includes/class-popup-config.php:83
+#: includes/class-popup-config.php:84
 msgid "Not again for 30 days"
 msgstr ""
 
-#: includes/class-popup-config.php:84
+#: includes/class-popup-config.php:85
 msgid "Not again for 90 days"
 msgstr ""
 
-#: includes/class-popup-config.php:85
+#: includes/class-popup-config.php:86
 msgid "Always show it"
 msgstr ""
 
-#: includes/class-popup-config.php:145
+#: includes/class-popup-config.php:148
 msgid "Content"
 msgstr ""
 
-#: includes/class-popup-config.php:146
+#: includes/class-popup-config.php:149
 msgid "Appearance"
 msgstr ""
 
-#: includes/class-popup-config.php:147
+#: includes/class-popup-config.php:150
 msgid "Display"
 msgstr ""
 
-#: includes/class-popup-config.php:177
+#: includes/class-popup-config.php:180
 msgid "Preview popup"
 msgstr ""
 
-#: includes/class-popup-config.php:178
+#: includes/class-popup-config.php:181
 msgid "Shows the last saved version."
 msgstr ""
 
-#: includes/class-popup-config.php:199
+#: includes/class-popup-config.php:202
 msgid "No results."
 msgstr ""
 
-#: public/views/popup.php:22
+#: public/views/popup.php:23
 msgid "Popup"
 msgstr ""
 
-#: public/views/popup.php:23
+#: public/views/popup.php:24
 msgid "Close"
 msgstr ""
