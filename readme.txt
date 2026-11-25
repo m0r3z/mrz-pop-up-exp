@@ -17,7 +17,7 @@ MRZ Pop-up Exp adds simple popups to your site. There is one layout: your HTML t
 = Features =
 
 * HTML text with shortcodes, and an optional image from the media library.
-* Popup width, image width, background color, overlay color and opacity.
+* Popup width, image width, background and text colors, overlay color and opacity.
 * Optional start and end dates.
 * Display on the homepage, on all pages, on all but the homepage, on specific posts or pages, or nowhere.
 * Optionally hidden on mobile (under 768 px).

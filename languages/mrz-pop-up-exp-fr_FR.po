@@ -43,11 +43,11 @@ msgstr "https://morez.co"
 msgid "Width (px)"
 msgstr "Largeur (px)"
 
-#: admin/views/metabox-appearance.php:25
+#: admin/views/metabox-appearance.php:30
 msgid "Overlay color"
 msgstr "Couleur de l’overlay"
 
-#: admin/views/metabox-appearance.php:29
+#: admin/views/metabox-appearance.php:34
 msgid "Overlay opacity (%)"
 msgstr "Opacité de l’overlay (%)"
 
@@ -64,7 +64,7 @@ msgid "Left image (optional)"
 msgstr "Image à gauche (facultative)"
 
 #: admin/views/metabox-content.php:22
-#: includes/class-popup-config.php:204
+#: includes/class-popup-config.php:207
 msgid "Choose an image"
 msgstr "Choisir une image"
 
@@ -89,7 +89,7 @@ msgid "Display popup on"
 msgstr "Afficher la pop-up sur"
 
 #: admin/views/metabox-display.php:39
-#: includes/class-popup-config.php:205
+#: includes/class-popup-config.php:208
 msgid "Remove"
 msgstr "Retirer"
 
@@ -173,127 +173,127 @@ msgstr "Aucune pop-up trouvée."
 msgid "No popups found in Trash."
 msgstr "Aucune pop-up trouvée dans la corbeille."
 
-#: includes/class-popup-config.php:47
+#: includes/class-popup-config.php:48
 msgid "Homepage"
 msgstr "Page d’accueil"
 
-#: includes/class-popup-config.php:48
+#: includes/class-popup-config.php:49
 msgid "All pages"
 msgstr "Toutes les pages"
 
-#: includes/class-popup-config.php:49
+#: includes/class-popup-config.php:50
 msgid "All but homepage"
 msgstr "Toutes sauf la page d’accueil"
 
-#: includes/class-popup-config.php:50
+#: includes/class-popup-config.php:51
 msgid "Specific post(s)/page(s)"
 msgstr "Article(s)/page(s) précis"
 
-#: includes/class-popup-config.php:51
+#: includes/class-popup-config.php:52
 msgid "Nowhere (disabled)"
 msgstr "Nulle part (désactivée)"
 
-#: includes/class-popup-config.php:57
+#: includes/class-popup-config.php:58
 msgid "Immediately"
 msgstr "Immédiatement"
 
-#: includes/class-popup-config.php:58
+#: includes/class-popup-config.php:59
 msgid "After some seconds on the page"
 msgstr "Après quelques secondes sur la page"
 
-#: includes/class-popup-config.php:59
+#: includes/class-popup-config.php:60
 msgid "After scrolling some pixels"
 msgstr "Après un défilement de quelques pixels"
 
-#: includes/class-popup-config.php:60
+#: includes/class-popup-config.php:61
 msgid "At half of the page"
 msgstr "À la moitié de la page"
 
-#: includes/class-popup-config.php:61
+#: includes/class-popup-config.php:62
 msgid "At the bottom of the page"
 msgstr "En bas de la page"
 
-#: includes/class-popup-config.php:62
+#: includes/class-popup-config.php:63
 msgid "After some minutes on the site"
 msgstr "Après quelques minutes sur le site"
 
-#: includes/class-popup-config.php:63
+#: includes/class-popup-config.php:64
 msgid "After some pages viewed in 90 days"
 msgstr "Après quelques pages vues en 90 jours"
 
-#: includes/class-popup-config.php:64
+#: includes/class-popup-config.php:65
 msgid "On exit intent (not on touch screens)"
 msgstr "À l’intention de sortie (pas au tactile)"
 
-#: includes/class-popup-config.php:73
+#: includes/class-popup-config.php:74
 msgid "seconds"
 msgstr "secondes"
 
-#: includes/class-popup-config.php:74
+#: includes/class-popup-config.php:75
 msgid "pixels"
 msgstr "pixels"
 
-#: includes/class-popup-config.php:75
+#: includes/class-popup-config.php:76
 msgid "minutes"
 msgstr "minutes"
 
-#: includes/class-popup-config.php:76
+#: includes/class-popup-config.php:77
 msgid "pages"
 msgstr "pages"
 
-#: includes/class-popup-config.php:82
+#: includes/class-popup-config.php:83
 msgid "Never again"
 msgstr "Ne plus jamais l’afficher"
 
-#: includes/class-popup-config.php:83
+#: includes/class-popup-config.php:84
 msgid "Not again during the session"
 msgstr "Plus pendant la session"
 
-#: includes/class-popup-config.php:84
+#: includes/class-popup-config.php:85
 msgid "Not again for 7 days"
 msgstr "Plus pendant 7 jours"
 
-#: includes/class-popup-config.php:85
+#: includes/class-popup-config.php:86
 msgid "Not again for 30 days"
 msgstr "Plus pendant 30 jours"
 
-#: includes/class-popup-config.php:86
+#: includes/class-popup-config.php:87
 msgid "Not again for 90 days"
 msgstr "Plus pendant 90 jours"
 
-#: includes/class-popup-config.php:87
+#: includes/class-popup-config.php:88
 msgid "Always show it"
 msgstr "Toujours l’afficher"
 
-#: includes/class-popup-config.php:152
+#: includes/class-popup-config.php:155
 msgid "Content"
 msgstr "Contenu"
 
-#: includes/class-popup-config.php:153
+#: includes/class-popup-config.php:156
 msgid "Appearance"
 msgstr "Apparence"
 
-#: includes/class-popup-config.php:154
+#: includes/class-popup-config.php:157
 msgid "Display"
 msgstr "Affichage"
 
-#: includes/class-popup-config.php:184
+#: includes/class-popup-config.php:187
 msgid "Preview popup"
 msgstr "Aperçu de la pop-up"
 
-#: includes/class-popup-config.php:185
+#: includes/class-popup-config.php:188
 msgid "Shows the last saved version."
 msgstr "Montre la dernière version enregistrée."
 
-#: includes/class-popup-config.php:206
+#: includes/class-popup-config.php:209
 msgid "No results."
 msgstr "Aucun résultat."
 
-#: public/views/popup.php:24
+#: public/views/popup.php:27
 msgid "Popup"
 msgstr "Pop-up"
 
-#: public/views/popup.php:25
+#: public/views/popup.php:28
 msgid "Close"
 msgstr "Fermer"
 
@@ -304,3 +304,11 @@ msgstr "Largeur de la colonne image (%)"
 #: admin/views/metabox-appearance.php:21
 msgid "Background color"
 msgstr "Couleur de fond"
+
+#: admin/views/metabox-appearance.php:25
+msgid "Text color"
+msgstr "Couleur du texte"
+
+#: admin/views/metabox-appearance.php:28
+msgid "Text, headings and close button. Leave empty to use the theme color."
+msgstr "Texte, titres et croix. Laisser vide pour garder la couleur du thème."

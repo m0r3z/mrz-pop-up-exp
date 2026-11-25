@@ -42,6 +42,15 @@
 	background: var(--mrzpop-background, #fff);
 }
 
+/* Couleur réglée : les titres du thème ont souvent la leur. */
+.mrzpop--has-color {
+	color: var(--mrzpop-color);
+}
+
+.mrzpop--has-color :where(h1, h2, h3, h4, h5, h6, p, li, blockquote) {
+	color: inherit;
+}
+
 /* Focus posé par le script à l'ouverture, pas un élément à actionner. */
 .mrzpop__dialog:focus {
 	outline: none;

@@ -9,7 +9,7 @@ Plugin WordPress de **pop-up très simple** : un texte HTML, une image à gauche
 ## Fonctionnalités
 
 - Texte HTML (shortcodes acceptés) et image de la médiathèque.
-- Largeur de la pop-up et de l'image, couleur de fond, couleur et opacité de l'overlay.
+- Largeur de la pop-up et de l'image, couleurs du fond et du texte, couleur et opacité de l'overlay.
 - Dates de début et de fin, choix des pages, masquage sur mobile.
 - 8 déclencheurs : immédiat, secondes, pixels, mi-page, bas de page, minutes sur le site, pages vues en 90 jours, intention de sortie.
 - 6 fréquences : plus jamais, pas pendant la session, 7, 30 ou 90 jours, toujours.

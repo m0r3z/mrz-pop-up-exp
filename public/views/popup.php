@@ -19,8 +19,11 @@ $mrzpop_style = sprintf(
 	$values['image_width'],
 	$values['background']
 );
+if ( '' !== $values['text_color'] ) {
+	$mrzpop_style .= ';--mrzpop-color:' . $values['text_color'];
+}
 ?>
-<div class="mrzpop<?php echo $has_image ? ' mrzpop--has-image' : ''; ?>" id="mrzpop-<?php echo esc_attr( $popup_id ); ?>" style="<?php echo esc_attr( $mrzpop_style ); ?>"<?php echo $popup_id === $this->preview_id ? ' data-mrzpop-preview' : ''; ?> data-mrzpop-start="<?php echo esc_attr( self::start_timestamp( $values['start_date'] ) ); ?>" data-mrzpop-end="<?php echo esc_attr( self::end_timestamp( $values['end_date'] ) ); ?>" data-mrzpop-hide-mobile="<?php echo esc_attr( $values['hide_mobile'] ); ?>" data-mrzpop-trigger="<?php echo esc_attr( $values['trigger'] ); ?>" data-mrzpop-value="<?php echo esc_attr( $values['trigger_value'] ); ?>" data-mrzpop-frequency="<?php echo esc_attr( $values['frequency'] ); ?>" hidden>
+<div class="mrzpop<?php echo $has_image ? ' mrzpop--has-image' : ''; ?><?php echo '' !== $values['text_color'] ? ' mrzpop--has-color' : ''; ?>" id="mrzpop-<?php echo esc_attr( $popup_id ); ?>" style="<?php echo esc_attr( $mrzpop_style ); ?>"<?php echo $popup_id === $this->preview_id ? ' data-mrzpop-preview' : ''; ?> data-mrzpop-start="<?php echo esc_attr( self::start_timestamp( $values['start_date'] ) ); ?>" data-mrzpop-end="<?php echo esc_attr( self::end_timestamp( $values['end_date'] ) ); ?>" data-mrzpop-hide-mobile="<?php echo esc_attr( $values['hide_mobile'] ); ?>" data-mrzpop-trigger="<?php echo esc_attr( $values['trigger'] ); ?>" data-mrzpop-value="<?php echo esc_attr( $values['trigger_value'] ); ?>" data-mrzpop-frequency="<?php echo esc_attr( $values['frequency'] ); ?>" hidden>
 	<div class="mrzpop__dialog" role="dialog" aria-modal="true" aria-label="<?php echo esc_attr( '' !== $title ? wp_strip_all_tags( $title ) : __( 'Popup', 'mrz-pop-up-exp' ) ); ?>" tabindex="-1">
 		<button type="button" class="mrzpop__close" aria-label="<?php esc_attr_e( 'Close', 'mrz-pop-up-exp' ); ?>"><span aria-hidden="true">&times;</span></button>
 		<div class="mrzpop__body">

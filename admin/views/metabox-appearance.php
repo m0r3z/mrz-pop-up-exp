@@ -22,6 +22,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<input type="text" id="mrzpop_background" name="mrzpop_background" data-default-color="#ffffff" value="<?php echo esc_attr( $values['background'] ); ?>">
 </p>
 <p>
+	<label for="mrzpop_text_color"><strong><?php esc_html_e( 'Text color', 'mrz-pop-up-exp' ); ?></strong></label><br>
+	<input type="text" id="mrzpop_text_color" name="mrzpop_text_color" value="<?php echo esc_attr( $values['text_color'] ); ?>">
+</p>
+<p class="description"><?php esc_html_e( 'Text, headings and close button. Leave empty to use the theme color.', 'mrz-pop-up-exp' ); ?></p>
+<p>
 	<label for="mrzpop_overlay_color"><strong><?php esc_html_e( 'Overlay color', 'mrz-pop-up-exp' ); ?></strong></label><br>
 	<input type="text" id="mrzpop_overlay_color" name="mrzpop_overlay_color" data-default-color="#000000" value="<?php echo esc_attr( $values['overlay_color'] ); ?>">
 </p>

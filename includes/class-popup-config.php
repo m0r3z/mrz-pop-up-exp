@@ -29,6 +29,7 @@ final class PopupConfig {
 			'width'           => 600,
 			'image_width'     => 40,
 			'background'      => '#ffffff',
+			'text_color'      => '',
 			'overlay_color'   => '#000000',
 			'overlay_opacity' => 60,
 			'start_date'      => '',
@@ -135,6 +136,8 @@ final class PopupConfig {
 			'width'           => $width ? min( 2000, max( 200, $width ) ) : $defaults['width'],
 			'image_width'     => $image_width ? min( 90, max( 10, $image_width ) ) : $defaults['image_width'],
 			'background'      => $background ? $background : $defaults['background'],
+			// Vide : couleur du thème.
+			'text_color'      => (string) sanitize_hex_color( (string) $raw['text_color'] ),
 			'overlay_color'   => $color ? $color : $defaults['overlay_color'],
 			'overlay_opacity' => min( 100, max( 0, (int) $raw['overlay_opacity'] ) ),
 			'start_date'      => self::sanitize_date( $raw['start_date'] ),
